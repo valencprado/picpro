@@ -1,1 +1,1 @@
-# picpro
+# Picpay + Kenzie Academy
