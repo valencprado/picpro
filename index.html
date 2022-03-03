@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PicPro</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/reset.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
 <body>
     <header class="cabecalho">
         <div class="container">
-            <figure class="cabecalho_Picpro">
+            <figure class="cabecalho_picpro">
                 <img src="./assets/img/logo-picpro.png" alt="Logo PicPro">
             </figure>
             <figure class="cabecalho_Kenzie">
@@ -26,13 +26,24 @@
     <main>
 
         <section class="secao_detalhes_conta">
+            <div class="container">
             <div class="secao_detalhes_conta_user">
-                <img src="" alt="ícone do usuário">
+                <img src="./assets/img/IMG_9883.png" alt="ícone do usuário" style="border-radius: 50px;">
                 <p>Olá, <strong>@valencprado</strong></p>
-
+                <div style="margin-left: 60%; display: flex; row-gap: 100px;">
+                <figure>
+                <img src="./assets/img/presente.png" alt="">
+            </figure>
+            <figure>
+                    <img src="./assets/img/chat.png" alt="">
+                </figure>
+            </div>
             </div>
             <div class="secao_detalhes_conta_saldo">
-                <p>Saldo PicPay, <strong>R$ 0,00</strong></p>
+                <p>Saldo PicPay, <strong>R$ 0,00</strong> <img src="./assets/img/visualizar.png" alt=""></p>
+                
+               
+            
                 <button>Extrato</button>
             </div>
             <ul class="secao_detalhes_conta_opcoes">
@@ -41,6 +52,7 @@
                 <li class="secao_detalhes_conta_item"><img src="./assets/img/codigo.png" alt=""><p>Pagar Boleto</p></li>
                 <li class="secao_detalhes_conta_item"><img src="./assets/img/cobrar-icon.png" alt=""><p>Cobrar</p></li>
             </ul>
+        </div>
         </section>
         <section class="secao_transacao">
             <div class="container">
@@ -54,7 +66,7 @@
                     <img src="./assets/img/qrcode-imagem.png" alt="Imagem QR Code">
                     <p>@valencprado</p>
                     <button>Cobre um amigo</button>
-                    <strong>Compartilhar meu código</strong>
+                    <a hre>Compartilhar meu código</a>
                 </div>
                 <!--PIX -->
                 <div class="secao_transacao_selecao_pix">
@@ -62,9 +74,10 @@
                     <div class="secao_transacao_selecao_box"><img src="./assets/img/pix1.png" alt="Ícone Enviar Pix">
                         <p>Envie por CPF/CNPJ, telefone, e-mail ou chave aleatória</p>
                     </div>
-                    <div  class="secao_transacao_selecao_box"><img src="./assets/img/pix2.png" alt="Ícone Copia e Cola"></div>
+                    <div class="secao_transacao_selecao_box"><img src="./assets/img/pix2.png" alt="Ícone Copia e Cola">
                     <p>Insira um código Pix Copia e Cola para enviar um pagamento</p>
                 </div>
+            </div>
                 <!--Boleto-->
                 <div  class="secao_transacao_boleto">
                     <img src="./assets/img/boleto.png" alt="Ícone Boleto">
@@ -89,13 +102,15 @@
             </div>
         </section>
         <footer class="rodape">
+            <div class="container">
             <ul class="rodape_menu">
                 <li class="rodape_item"><a href="#"><img src="./assets/img/inicio.png" alt="ícone início"></a><p>Início</p></li>
                 <li class="rodape_item"><a href="#"><img src="./assets/img/carteira.png" alt="ícone carteira"></a><p>Carteira</p></li>
-                <li class="rodape_item"><a href="#"><img src="./assets/img/pagar.png" alt="ícone pagar"></a><p>Pagar</p></li>
+                <li class="rodape_item_pagar"><a href="#"><img src="./assets/img/pagar.png" alt="ícone pagar"></a><p>Pagar</p></li>
                 <li class="rodape_item"><a href="#"><img src="./assets/img/notificacao.png" alt="ícone notificações"></a><p>Notificações</p></li>
-                <li class="rodape_item"><a href="#"><img src="./assets/img/bolsa.png" alt="ícone Store"></a><p>Store</p></li>
+                <li class="rodape_item"><a href="#"><img src="./assets/img/bolsa.png" alt="ícone store"></a><p>Store</p></li>
             </ul>
+        </div>
         </footer>
     </main>
 </body>
