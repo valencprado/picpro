@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #228664;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 150px;
+}
+.cabecalho{
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+.cabecalho .container{
+    display: flex;
+}
+.cabecalho figure img{
+    width: 100%;
+    max-width: 140px;
+
+}
+.cabecalho_picpro{
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+    margin-right: 15px;
+}
+
+.secao_detalhes_conta{
+    color: #FFF;
+    padding: 60px 0 30px;
+}
+.secao_detalhes_conta .secao_detalhes_conta_user{
+    display: flex;
+} 
+.secao_detalhes_conta .secao_detalhes_conta_user p{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.secao_detalhes_conta .secao_detalhes_conta_user img{
+    width: 100%;    
+    max-width: 50px;
+    
+
+}
+.secao_detalhes_conta .secao_detalhes_conta_user p strong {
+    display: block;
+    font-weight: bold;
+}
+.secao_detalhes_conta_saldo {
+    border-top: 1px solid rgba(0,0,0, 0.15);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    align-items: center;
+}
+.secao_detalhes_conta_saldo p {
+    font-size: 14px;
+    line-height: 22px;
+}
+.secao_detalhes_conta_saldo p strong {
+    display: block;
+    font-weight: bold;
+}
+.secao_detalhes_conta_saldo button {
+    background-color: #FFF;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 60px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.secao_detalhes_conta_opcoes {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.secao_detalhes_conta_opcoes li {
+    background-color: #1F6F54;
+    width: 170px;
+    height: 177px;
+    border-radius: 20px;
+    padding: 40px 20px;
+}
+.secao_detalhes_conta_opcoes li img {
+    width: 100%;
+    max-width: 40px;
+}
+.secao_detalhes_conta_opcoes li p {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 25px;
+    width: 80px;
+}
+
+.secao_transacao {
+    background-color: #FFF;
+    border-radius: 20px 20px 0 0;
+    border-bottom: 15px solid #f0f0f0;
+    padding: 10px 0;
+}
+.secao_transacao_selecao p {
+    font-size: 25px;
+    box-shadow: 2px 2px 4px rgba(0,0,0, 0.15);
+    padding: 30px 60px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0, 0.15);
+}
+.secao_transacao_selecao img {
+    margin: 30px 0 90px;
+    width: 100%;
+}
+
+.secao_transacao_selecao_qrcode {
+    text-align: center;
+}
+.secao_transacao_selecao_qrcode img {
+    max-width: 180px;
+}
+.secao_transacao_selecao_qrcode p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+.secao_transacao_selecao_qrcode button {
+    background-color: #228664;
+    border: none;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 50px 0 20px;
+    padding: 15px 150px;
+    cursor: pointer;
+}
+.secao_transacao_selecao_qrcode a {
+    display: block;
+    color: #000;
+    font-weight: bold;
+}
+
+.secao_transacao_selecao_pix img {
+    width: 100%;
+    max-width: 150px;
+}
+.secao_transacao_selecao_box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #d2d2d2;
+    max-width: 500px;
+    padding: 15px 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0,0,0, 0.15);
+    margin: 20px 0;
+}
+.secao_transacao_selecao_box img {
+    width: 100%;
+    max-width: 80px;
+    margin-right: 10px;
+}
+
+.secao_transacao_selecao_box p {
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.secao_transacao_boleto img, .secao_transacao_cobrar img 
+{
+    width: 100%;
+    max-width: 80px;
+
+}
+.secao_transacao_boleto h2, .secao_transacao_cobrar h2  {
+    font-size: 20px;
+    font-weight: 600;
+}
+.secao_transacao_boleto p, .secao_transacao_cobrar p  {
+    font-size: 18px;
+    max-width: 500px;
+    margin: 20px 0;
+}
+.secao_transacao_boleto input {
+    width: 100%;
+    background-color: #f4f4f4;
+    font-size: 16px;
+    height: 50px;
+    padding: 0 80px;
+    border-radius: 10px;
+    border: 1px solid #d2d2d2;
+    color: #000;
+}
+
+.secao_transacao_cobrar .secao_transacao_selecao_box p {
+    margin-left: 10px ;
+}
+
+.rodape {
+    background-color: #FFF;
+}
+
+.rodape_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.rodape_menu li {
+    text-align: center;
+}
+.rodape_menu li a {
+    color: #000;
+    text-decoration: none;
+    
+}
+.rodape_menu li a img {
+    width: 100%;
+    max-width: 40px;
+    
+}
+.rodape_menu li a p {
+    margin-top: 10px;
+}
+
+.rodape_item_pagar {
+    transform: translate(-30px);
+}
+.rodape_menu  .rodape_item_pagar a img {
+    max-width: 80px;
+}
